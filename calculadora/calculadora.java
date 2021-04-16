@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class calculadora{
-  private static int num1;
-  private static int num2;
+  static int num1;
+  static int num2;
 
   public static void main(String[] args){
 
@@ -39,7 +39,8 @@ public class calculadora{
       double divi = micalculadora.dividir();
       System.out.println ("la divicion es: "+divi);
     }
-
+    
+    
   }
 
   public calculadora(){

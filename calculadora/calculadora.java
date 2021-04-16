@@ -1,12 +1,36 @@
+import java.util.Scanner;
+
 public class calculadora{
   private int num1;
   private int num2;
 
   public static void main(String[] args){
+    Scanner entrada = new Scanner(System.in);
+
+    int numero;
+
+    System.out.print("1.Suma\n2.Resta\n3.Multiplicación\n4.Divicion\n");
+    numero = entrada.nextInt();
+
     calculadora micalculadora = new calculadora(10,2);
 
-    int suma = micalculadora.sumar();
-    System.out.println ("la suma"+suma);
+    if (numero == 1){
+      int suma = micalculadora.sumar();
+      System.out.println ("la suma es: "+suma);
+    }
+    if (numero == 2){
+      int resta = micalculadora.restar();
+      System.out.println ("la resta es: "+resta);
+    }
+    if (numero == 3){
+      int mult = micalculadora.multi();
+      System.out.println ("la multiplicacion es: "+mult);
+    }
+    if (numero == 4){
+      double divi = micalculadora.dividir();
+      System.out.println ("la divicion es: "+divi);
+    }
+
   }
 
   public calculadora(){

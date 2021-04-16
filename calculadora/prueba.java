@@ -1,20 +1,16 @@
 import java.util.Scanner;
 
 public class prueba{
-  public static void main(String[] args){
-    Scanner entrada = new Scanner(System.in);
 
+ 
+  public static void main(String[] args){ 
     int numero;
-
+    Scanner entrada = new Scanner(System.in);
+    numero=entrada.nextInt();
     System.out.print("sda");
-    numero = entrada.nextInt();
+    System.out.println(numero);
 
-    
 
-    if (numero==1){
-      System.out.println(numero);
-    }
-    
   }
 
 }

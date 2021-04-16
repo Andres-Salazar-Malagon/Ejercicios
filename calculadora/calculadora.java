@@ -3,9 +3,12 @@ import java.util.Scanner;
 public class calculadora{
   private int num1;
   private int num2;
+  
+  Scanner entrada = new Scanner(System.in);
 
   public static void main(String[] args){
-    Scanner entrada = new Scanner(System.in);
+
+    //Scanner entrada = new Scanner(System.in);
 
     int numero;
 

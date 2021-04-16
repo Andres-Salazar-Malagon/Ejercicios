@@ -1,21 +1,27 @@
 import java.util.Scanner;
 
 public class calculadora{
-  private int num1;
-  private int num2;
-  
-  Scanner entrada = new Scanner(System.in);
+  private static int num1;
+  private static int num2;
 
   public static void main(String[] args){
 
     //Scanner entrada = new Scanner(System.in);
 
     int numero;
+    System.out.print("digite el priemer nuemero: ");
+    Scanner entrada = new Scanner(System.in);
+    num1 = entrada.nextInt();
 
-    System.out.print("1.Suma\n2.Resta\n3.Multiplicación\n4.Divicion\n");
-    numero = entrada.nextInt();
+    System.out.print("digite el segundo nuemero: ");
+    Scanner entrada2 = new Scanner(System.in);
+    num2 = entrada2.nextInt();
 
-    calculadora micalculadora = new calculadora(10,2);
+    System.out.print("Seleccione una de las siguientes opciones:\n1.Suma\n2.Resta\n3.Multiplicación\n4.Divicion\n");
+    Scanner entrada3 = new Scanner(System.in);
+    numero = entrada3.nextInt();
+
+    calculadora micalculadora = new calculadora(num1,num2);
 
     if (numero == 1){
       int suma = micalculadora.sumar();

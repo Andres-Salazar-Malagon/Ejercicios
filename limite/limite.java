@@ -14,17 +14,11 @@ public class limite{
     Scanner entrada2 = new Scanner(System.in);
     num2 = entrada2.nextInt();
 
-    System.out.println(num1);
-    System.out.println(num2);
-
-
-
     for(i=num1; i<=num2; i++){
-      System.out.println(i);
       if(i % 2 == 0){
-        System.out.println("es numero par: "+num1);
+        System.out.println("es numero par: "+i);
       }else{
-        System.out.println("no es par: "+num1);
+        System.out.println("no es par: "+i);
       }
     }
   }

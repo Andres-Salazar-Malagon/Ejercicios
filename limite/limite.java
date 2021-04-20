@@ -16,9 +16,9 @@ public class limite{
 
     for(i=num1; i<=num2; i++){
       if(i % 2 == 0){
-        System.out.println("es numero par: "+i);
+        System.out.println("El numero es par: "+i);
       }else{
-        System.out.println("no es par: "+i);
+        System.out.println("El numero no es par: "+i);
       }
     }
   }

@@ -4,7 +4,8 @@ public class limite{
   static int num1;
   static int num2;
   public static  void main(String[] args){
-    int i==num1;
+    int i=num1;
+    int n=num1;
 
     System.out.print("digite el limite inferior: ");
     Scanner entrada = new Scanner(System.in);
@@ -14,18 +15,18 @@ public class limite{
     Scanner entrada2 = new Scanner(System.in);
     num2 = entrada2.nextInt();
 
-    /*for(i=num1; i<=num2; i++){
+    for(i=num1; i<=num2; i++){
       if(i % 2 == 0){
         System.out.println("El numero es par: "+i);
-      }else{
+      }/*else{
         System.out.println("El numero no es par: "+i);
+      }*/
+    }
+    while(n<=num2){
+      if(n % 2 == 1){
+        System.out.println("El numero no es par: "+n);
       }
-    }*/
-    while(i<=num2){
-      if(i % 2 == 0){
-        System.out.println("El numero no es par: "+i);
-      }
-      i == num1 + 1;
+      n += 1;
     }
   }
 

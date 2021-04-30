@@ -6,7 +6,7 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.JFrame;
-import objeto.Globo;
+import Objeto.Globo;
 
 public class JugarGlobo extends JApplet implements ActionListener {
 

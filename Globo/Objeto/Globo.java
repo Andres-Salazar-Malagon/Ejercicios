@@ -1,4 +1,4 @@
-package objeto;
+package Objeto;
 import java.awt.*;
 
 public class Globo{
@@ -15,11 +15,11 @@ yInicial) {
  }
  
  public void mostrar (Graphics g) {
- g.setcolor(colo.black)
+ g.setColor(Color.black);
  g.drawOval (xCoord, yCoord, diametro, diametro);
  }
  public void mostrar2 (Graphics g){
- g.setcolor(colo.white)
+ g.setColor(Color.white);
  g.drawOval (xCoord, yCoord, diametro, diametro);
  }
 }
